@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Audio Recording</title>
+    <style>
+      .audio {
+        width: 400px;
+        height: 600px;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 50px auto;
+      }
+      #container audio {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <button id="btn">Start</button>
+    <button id="stop">Stop</button><br />
+    <input type="text" id="in" />
+    <button id="req">REQ</button>
+    <script src="js/record_script.js"></script>
+  </body>
+</html>
